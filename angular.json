@@ -45,6 +45,7 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "baseHref": "/wedding-portal/",
             "assets": [
               {
                 "glob": "**/*",

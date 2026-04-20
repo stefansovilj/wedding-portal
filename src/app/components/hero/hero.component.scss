@@ -40,11 +40,11 @@
   }
 
   &__names {
-    font-family: var(--font-heading);
-    font-size: clamp(3.5rem, 12vw, 7rem);
+    font-family: var(--font-script);
+    font-size: clamp(4rem, 13vw, 8rem);
     color: var(--color-primary);
     line-height: 1.1;
-    font-weight: 700;
+    font-weight: 400;
   }
 
   &__amp {

@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
-
 :root {
-  --color-bg: #F9F4EC;
-  --color-primary: #5C3D2E;
-  --color-accent: #7A9E7E;
-  --color-gold: #C4A265;
-  --color-text: #3E2723;
-  --color-light: #EDE0CC;
-  --color-white: #FFFDF8;
+  --color-bg: hsl(40, 39%, 91%);
+  --color-primary: hsl(100, 15%, 24%);
+  --color-accent: hsl(77, 15%, 50%);
+  --color-gold: hsl(42, 85%, 55%);
+  --color-gold-soft: hsl(42, 60%, 70%);
+  --color-text: hsl(100, 15%, 24%);
+  --color-light: hsl(60, 10%, 82%);
+  --color-white: hsl(40, 35%, 88%);
 
-  --font-heading: 'Dancing Script', cursive;
-  --font-body: 'Crimson Text', serif;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-body: 'Lora', serif;
 
   --section-padding: 80px 24px;
   --max-width: 900px;
