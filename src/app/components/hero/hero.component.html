@@ -1,0 +1,56 @@
+<section class="hero">
+  <!-- Floating botanical leaves -->
+  <div class="leaf leaf-1" aria-hidden="true">🌿</div>
+  <div class="leaf leaf-2" aria-hidden="true">🍃</div>
+  <div class="leaf leaf-3" aria-hidden="true">🌿</div>
+  <div class="leaf leaf-4" aria-hidden="true">🍃</div>
+
+  <div class="hero__content">
+    <p class="hero__pre">Venčanje</p>
+
+    <h1 class="hero__names">
+      Stefan<span class="hero__amp"> & </span>Tamara
+    </h1>
+
+    <p class="hero__surname">Sovilj</p>
+
+    <div class="hero__divider">
+      <span></span>
+      <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M10 2 C6 2 2 6 2 10 C2 14 6 18 10 18 C14 18 18 14 18 10 C18 6 14 2 10 2 Z" fill="#C4A265" opacity="0.7"/>
+        <path d="M10 5 L11.5 8.5 L15 9 L12.5 11.5 L13 15 L10 13.5 L7 15 L7.5 11.5 L5 9 L8.5 8.5 Z" fill="#F9F4EC"/>
+      </svg>
+      <span></span>
+    </div>
+
+    <p class="hero__date">29. avgusta 2026.</p>
+
+    <div class="countdown" aria-label="Odbrojavanje do venčanja">
+      <div class="countdown__unit">
+        <span class="countdown__num">{{ countdown.days }}</span>
+        <span class="countdown__label">Dana</span>
+      </div>
+      <div class="countdown__sep">:</div>
+      <div class="countdown__unit">
+        <span class="countdown__num">{{ countdown.hours }}</span>
+        <span class="countdown__label">Sati</span>
+      </div>
+      <div class="countdown__sep">:</div>
+      <div class="countdown__unit">
+        <span class="countdown__num">{{ countdown.minutes }}</span>
+        <span class="countdown__label">Minuta</span>
+      </div>
+      <div class="countdown__sep">:</div>
+      <div class="countdown__unit">
+        <span class="countdown__num">{{ countdown.seconds }}</span>
+        <span class="countdown__label">Sekundi</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#schedule" class="hero__scroll" aria-label="Idi dole">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M6 9L12 15L18 9" stroke="#C4A265" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+</section>

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+  --color-bg: #F9F4EC;
+  --color-primary: #5C3D2E;
+  --color-accent: #7A9E7E;
+  --color-gold: #C4A265;
+  --color-text: #3E2723;
+  --color-light: #EDE0CC;
+  --color-white: #FFFDF8;
+
+  --font-heading: 'Dancing Script', cursive;
+  --font-body: 'Crimson Text', serif;
+
+  --section-padding: 80px 24px;
+  --max-width: 900px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+}
+
+.section-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--color-accent);
+  font-style: italic;
+  margin-bottom: 48px;
+  font-size: 1.1rem;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,39 @@
+<section class="venue" id="venue">
+  <div class="venue__inner">
+    <h2 class="section-title" appScrollReveal>Lokacija</h2>
+    <p class="section-subtitle" appScrollReveal>Gde se slavlje održava</p>
+
+    <div class="venue__cards">
+      @for (loc of locations; track loc.name) {
+        <div class="venue__card" appScrollReveal>
+          <div class="venue__label">{{ loc.label }}</div>
+          <div class="venue__photo">
+            <img [src]="loc.image" [alt]="loc.imageAlt" class="venue__photo-img" />
+          </div>
+
+          <h3 class="venue__name">{{ loc.name }}</h3>
+          <p class="venue__address">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="vertical-align: middle; margin-right: 6px;">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#7A9E7E"/>
+            </svg>
+            {{ loc.address }}
+          </p>
+
+          <div class="venue__actions">
+            <a [href]="loc.mapsUrl" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              Navigacija do lokacije
+            </a>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+
+  <footer class="venue__footer">
+    <app-leaf-divider />
+    <p class="venue__footer-text">
+      Stefan & Tamara Sovilj &nbsp;·&nbsp; 29. avgusta 2026.
+    </p>
+    <p class="venue__footer-sub">Sa ljubavlju vas čekamo</p>
+  </footer>
+</section>

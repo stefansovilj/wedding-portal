@@ -1,0 +1,25 @@
+<section class="schedule" id="schedule">
+  <app-leaf-divider />
+
+  <div class="schedule__inner">
+    <h2 class="section-title" appScrollReveal>Raspored dana</h2>
+    <p class="section-subtitle" appScrollReveal>29. avgusta 2026.</p>
+
+    <div class="timeline">
+      @for (event of events; track event.time) {
+        <div class="timeline__item" appScrollReveal>
+          <div class="timeline__time">{{ event.time }}</div>
+          <div class="timeline__node">
+            <span class="timeline__icon">{{ event.icon }}</span>
+          </div>
+          <div class="timeline__content">
+            <h3 class="timeline__title">{{ event.title }}</h3>
+            <p class="timeline__desc">{{ event.description }}</p>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+
+  <app-leaf-divider [flip]="true" />
+</section>
