@@ -114,6 +114,14 @@
     font-size: 1rem;
     margin-top: 6px;
   }
+
+  &__footer-note {
+    font-size: 0.72rem;
+    color: var(--color-text);
+    opacity: 0.35;
+    margin-top: 28px;
+    letter-spacing: 0.08em;
+  }
 }
 
 .btn-primary {
