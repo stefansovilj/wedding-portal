@@ -14,10 +14,10 @@ export class VenueComponent {
   locations = [
     {
       image: 'crkva.jpg',
-      imageAlt: 'Crkva Svetog Vasilija Ostroškog, Banjica',
-      name: 'Crkva Svetog Vasilija Ostroškog',
-      address: 'Crnotravska 2, Beograd',
-      mapsUrl: 'https://www.google.com/maps/place/Saint+Basil+of+Ostrog+Serbian+Orthodox+Church/@44.7619288,20.4787477,21z/data=!4m6!3m5!1s0x475a7101f780c033:0x46b8245286b87c6a!8m2!3d44.7619789!4d20.4788746!16s%2Fg%2F12lqjvmxp!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D',
+      imageAlt: 'Crkva Svetih Apostola Petra i Pavla, Topčider',
+      name: 'Crkva Svetih Apostola Petra i Pavla',
+      address: 'Bulevar vojvode Putnika 11, Beograd',
+      mapsUrl: 'https://maps.app.goo.gl/MQfoX9VAovq5Lk8M7',
       label: 'Venčanje',
     },
     {
