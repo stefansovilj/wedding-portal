@@ -22,7 +22,7 @@ export class ScheduleComponent {
     {
       time: '14:00',
       title: 'Crkveno venčanje',
-      description: 'Crkva Svetog Vasilija Ostroškog',
+      description: 'Crkva Svetih Apostola Petra i Pavla, Topčider',
       icon: '⛪',
     },
     {
